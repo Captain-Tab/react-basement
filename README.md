@@ -2,7 +2,7 @@
 The aim is to buid a simple, extendable React-Redux site for displaying data from different services.
 
 
-#Documentation
+## Documentation
 
 ## Usage
 ```
@@ -45,8 +45,10 @@ Add a router
   ```
 ## How to use state management
 
-1.Create a new folder `demo/` folder under the `store/` directory and create `actionType`, `action`, `reducer`
+1.Create a new folder `demo/` folder under the `store/` directory and create `actionType`, `action`, `reducer`.
+
 2.Import `reducer` in the `store/` folder and export it uniformly
+
 3.In `demo` component, use `connect`and export it
 ```jsx
     const mapStateToProps = (state) => {
