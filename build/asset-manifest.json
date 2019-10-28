@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f12bc23e.chunk.css",
-    "main.js": "/static/js/main.3b3e2044.chunk.js",
-    "main.js.map": "/static/js/main.3b3e2044.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.c29d736f.chunk.js": "/static/js/2.c29d736f.chunk.js",
-    "static/js/2.c29d736f.chunk.js.map": "/static/js/2.c29d736f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8f3719aa3394fe45844174a07038916f.js": "/precache-manifest.8f3719aa3394fe45844174a07038916f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f12bc23e.chunk.css.map": "/static/css/main.f12bc23e.chunk.css.map"
+    "main.css": "/react-basement/build/static/css/main.f12bc23e.chunk.css",
+    "main.js": "/react-basement/build/static/js/main.3b3e2044.chunk.js",
+    "main.js.map": "/react-basement/build/static/js/main.3b3e2044.chunk.js.map",
+    "runtime~main.js": "/react-basement/build/static/js/runtime~main.70810711.js",
+    "runtime~main.js.map": "/react-basement/build/static/js/runtime~main.70810711.js.map",
+    "static/js/2.c29d736f.chunk.js": "/react-basement/build/static/js/2.c29d736f.chunk.js",
+    "static/js/2.c29d736f.chunk.js.map": "/react-basement/build/static/js/2.c29d736f.chunk.js.map",
+    "index.html": "/react-basement/build/index.html",
+    "precache-manifest.98f42f1adff299f5b67c49320dfbef4b.js": "/react-basement/build/precache-manifest.98f42f1adff299f5b67c49320dfbef4b.js",
+    "service-worker.js": "/react-basement/build/service-worker.js",
+    "static/css/main.f12bc23e.chunk.css.map": "/react-basement/build/static/css/main.f12bc23e.chunk.css.map"
   }
 }
