@@ -1,0 +1,17 @@
+[
+  {
+    "name": "East US",
+    "status": 0,
+    "description": "test"
+  },
+  {
+    "name": "East US2",
+    "status": 1,
+    "description": "test"
+  },
+  {
+    "name": "North Europe",
+    "status": 0,
+    "description": "test"
+  }
+]
