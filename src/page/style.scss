@@ -1,0 +1,39 @@
+ul > li {
+  list-style: none;
+}
+.layout {
+  display: flex;
+  padding: 50px;
+  .silder {
+    ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      li {
+        cursor: pointer;
+        height: 50px;
+        text-align: left;
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: bolder;
+        a {
+          line-height: 50px;
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          text-decoration: none;
+        }
+        .active {
+          background-color: rgba($color: #000000, $alpha: 0.2);
+        }
+      }
+    }
+  }
+  .content {
+    height: 600px;
+    padding: 20px;
+    border: 1px solid blue;
+    flex-grow: 1;
+  }
+}

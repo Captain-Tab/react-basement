@@ -1,0 +1,1 @@
+export const GET_AZURE_LIST = 'GET_AZURE_LIST';
