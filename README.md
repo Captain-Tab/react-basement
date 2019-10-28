@@ -2,7 +2,7 @@
 The aim is to buid a simple, extendable React-Redux site for displaying data from different services.
 
 
-#Documentation
+## Documentation
 
 ## Usage
 ```
@@ -45,8 +45,10 @@ Add a router
   ```
 ## How to use state management
 
-1.Create a new folder `demo/` folder under the `store/` directory and create `actionType`, `action`, `reducer`
+1.Create a new folder `demo/` folder under the `store/` directory and create `actionType`, `action`, `reducer`.
+
 2.Import `reducer` in the `store/` folder and export it uniformly
+
 3.In `demo` component, use `connect`and export it
 ```jsx
     const mapStateToProps = (state) => {
@@ -65,7 +67,9 @@ Add a router
 ## Conclusion
 
 1.This project implements redux state management, and can send asynchronous `action`. The state of each component is scattered in different folders (under the `store` folder), which is a good separation.
+
 2.This project does not have the ability to implement the direct request interface to get the returned `json` data for rendering, because the interface provided by Microsoft or `dataDog` is not found, or the interface will cause cross-domain and cannot be used in this project request.
+
 3.This project is created with `create-react-app`. I created `mock` data in the public folder and perform interface simulation request. This project is developed and debugged in this mode.
 4. The most difficult part is to fetch the data without using any API.If I want to get real data, there are two ways to do it:
 
